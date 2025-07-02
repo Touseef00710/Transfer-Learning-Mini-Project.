@@ -21,7 +21,7 @@ The objective of this mini project is to compare two popular pre-trained CNN arc
 ## ✅ Selected Model: MobileNetV2
 
 ### 📌 Justification
-MobileNetV2 was selected for its efficiency in small-scale image classification tasks. It has significantly fewer parameters compared to heavier models like ResNet50, resulting in faster training and inference. Despite being lightweight, it still offers competitive ImageNet accuracy (~71.8%).
+MobileNetV2 was selected for its efficiency in small-scale image classification tasks. It has significantly fewer parameters compared to heavier models like ResNet50, resulting in faster training and inference. Despite being lightweight, it still offers competitive ImageNet accuracy (~45%).
 
 ---
 
@@ -50,7 +50,7 @@ MobileNetV2 was selected for its efficiency in small-scale image classification 
    - Fine-tuned last ~50 layers with reduced learning rate
 
 5. **Evaluation**
-   - Final accuracy: **~43%** on test data
+   - Final accuracy: **~45%** on test data
    - Confusion matrix & training/validation plots generated
 
 ---
@@ -58,7 +58,7 @@ MobileNetV2 was selected for its efficiency in small-scale image classification 
 ## 📈 Results
 
 - **Initial Accuracy**: **~10%**
-- **After Fine-Tuning**: **~43%**
+- **After Fine-Tuning**: **~45%**
 - Good generalization with minimal overfitting
 - Lightweight model suitable for deployment
 
