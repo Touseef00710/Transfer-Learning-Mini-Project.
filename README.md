@@ -50,15 +50,15 @@ MobileNetV2 was selected for its efficiency in small-scale image classification 
    - Fine-tuned last ~50 layers with reduced learning rate
 
 5. **Evaluation**
-   - Final accuracy: **~85.3%** on test data
+   - Final accuracy: **~43%** on test data
    - Confusion matrix & training/validation plots generated
 
 ---
 
 ## 📈 Results
 
-- **Initial Accuracy**: ~72%
-- **After Fine-Tuning**: **~85.3%**
+- **Initial Accuracy**: **~10%**
+- **After Fine-Tuning**: **~43%**
 - Good generalization with minimal overfitting
 - Lightweight model suitable for deployment
 
